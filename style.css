@@ -1,0 +1,265 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    scroll-behavior:smooth;
+    font-family:'Arial';
+
+}
+header{
+    width:100%;
+    height:100px;
+
+}
+.nav1{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+box-shadow:2px 0px 3px grey;
+text-align: center;
+background-color:grey;
+color:white;
+}
+.left{
+flex-basis:50%;
+}
+.left a{
+    font-weight:bold;
+    margin:0px 5px;
+
+}
+.right{
+    flex-basis:50%;
+
+}
+.right i{
+    font-size:20px;
+    margin:0px 15px;
+    padding:8px;
+    cursor:pointer;
+    transition: 0.4s ease-in-out;
+    background-color: brown;
+    color:white;
+}
+.right i:hover{
+    transform:rotate(360deg)
+}
+.nav2{
+    width:100%;
+    height:120px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+  text-align: center;
+  
+}
+.nav2-left,.nav2-center,.nav2-right{
+    flex-basis: 30%;
+margin:auto;
+cursor:pointer;
+}
+.nav2-left{
+    margin-left: 15px;
+}
+.nav2-center h1{
+    color:red;
+    font-size:2rem;
+    font-weight:bold;
+
+}
+.nav2-center h1 span{
+    color:black;
+}
+.nav2-center p{
+    color:green;
+    font-size:20px;
+    margin-top:5px;
+}
+.nav2-right i{
+    margin:0px 15px;
+}
+
+.nav3
+{
+    width:100%;
+    height:80px;
+    line-height:70px;
+
+}
+.nav3 ul{
+    list-style:none;
+    text-align: center;
+
+
+}
+.nav3 ul li{
+    display:inline-block;
+    width:150px;
+    position: relative;
+    z-index:99;
+    
+}
+.nav3 ul li a{
+    text-decoration:none;
+    color:brown;
+    font-weight:500;
+
+}
+.nav3 ul li a:hover{
+color:blue;
+}
+.nav3 ul li i{
+    margin:0px 5px;
+}
+
+.nav3 ul ul {
+position: absolute;
+top: 70px;
+left:0;
+display:none;
+
+}
+.nav3 ul ul li{
+    background-color: aliceblue;
+    border-bottom:1px solid brown;
+}
+.nav3 ul li:hover>ul{
+    display:block;
+}
+
+.featured{
+    width:100%;
+    height:500px;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    
+    position: relative;
+}
+.featured-text{
+    max-width:500px;
+    position:absolute;
+    top:50%;
+left:10%;
+text-align: center;
+padding: 10px;
+font-size:1rem;
+letter-spacing:1px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.featured-text button{
+padding: 10px 20px;
+border:none;
+background-color: blue;
+margin:20px 0px;
+color:white;
+}
+
+.arrivals{
+    padding:50px 100px;
+
+
+}
+.new-arrival{
+    text-align:center;
+}
+.new-arrival h1{
+    color:red;
+    font-size:2rem;
+    font-weight:bolder;
+}
+.new-arrival h1 p{
+color:green;
+margin:15px 0px;
+
+}
+.card-container{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+    margin:100px 0px;
+
+}
+.card-container .card{
+    flex-basis:25%;
+    padding:0.8rem;
+}
+.card img{
+    width:100%;
+    transition: 0.5s ease-in-outs;
+}
+
+.card i{
+color:goldenrod;
+margin:10px 0px;
+}
+.card button{
+color:white;
+background-color:black;
+outline:none;
+margin-top:15px;
+
+}
+
+
+.card:hover img,.card:hover h1{
+    width:130%;
+    color:red;
+}
+
+.trends{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 50px;
+
+   
+}
+
+.trends h1{
+    color:brown;
+}
+
+.trends span{
+    color:black ;
+}
+
+
+footer{
+    background-color: rgb(29, 28, 28);
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    text-align:center;
+padding:2rem;
+
+}
+
+footer div{
+    flex-basis: 30%;
+}
+
+footer h1{
+    color:brown;
+}
+
+@media only screen and(max-width:769px)
+{
+ 
+    
+}
+
+
+
